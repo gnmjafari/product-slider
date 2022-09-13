@@ -47,7 +47,7 @@
     border-radius: 50%;
 }
 
-button{
+.product button{
     padding: 5px 15px;
     border: 0;
     background: #fff;
@@ -56,6 +56,70 @@ button{
     transition: 0.5s;
 }
 
-button:hover{
+.product button:hover{
     background: #f8ce46;
+}
+
+
+.contianer-sabad
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 90%;
+    height: auto;
+    background: #282A31;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 80px;
+    padding: 15px;
+    color: #fff;
+}
+
+
+.pardakht button{
+    background: #f8ce46;
+    color: black;
+    padding: 5px 15px;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+
+.productselect{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    
+
+}
+
+.pardakht{
+    padding-top: 20px;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productselect button{
+    padding: 5px 10px;
+    border: 0;
+    background: #f8ce46;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.productselect button:hover{
+    opacity: 0.75;
 }
